@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400" prefWidth="400" spacing="10" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.di05_informes.HelloController">
+   <Pane prefHeight="404.0" prefWidth="400.0">
+      <children>
+          <Button fx:id="closeButton" layoutX="60.0" layoutY="266.0" onAction="#closeApplication" prefHeight="25.0" prefWidth="242.0" text="Cerrar" />
+          <Button fx:id="artistReportButton" layoutX="59.0" layoutY="180.0" onAction="#generateArtistReport" prefHeight="25.0" prefWidth="242.0" text="Generar Informe de Artistas" />
+          <Button fx:id="customerReportButton" layoutX="59.0" layoutY="127.0" onAction="#generateCustomerReport" prefHeight="25.0" prefWidth="242.0" text="Generar Informe de Clientes" />
+          <Label layoutX="47.0" layoutY="30.0" prefHeight="39.0" prefWidth="267.0" text="Generador de Informes">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Label>
+      </children>
+   </Pane>
+</VBox>

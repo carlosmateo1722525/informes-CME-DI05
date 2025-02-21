@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="500" prefWidth="430" spacing="10" stylesheets="@styleArtist.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.di05_informes.artistasController">
+   <Pane prefHeight="506.0" prefWidth="400.0">
+      <children>
+          <Label layoutX="82.0" layoutY="14.0" prefHeight="39.0" prefWidth="223.0" text="Informe de artistas">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Label>
+         <Label layoutX="73.0" layoutY="53.0" prefHeight="27.0" prefWidth="244.0" text="Seleccione un artista" />
+         <ListView fx:id="artistasListView" layoutX="12.0" layoutY="88.0" prefHeight="366.0" prefWidth="367.0" />
+      </children>
+   </Pane>
+</VBox>

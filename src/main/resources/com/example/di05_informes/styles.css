@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+    -fx-font-family: "Arial";
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0.3, 2, 2);
+    -fx-transition: all 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: #005BB5;
+}
+
+#closeButton {
+    -fx-background-color: #D9534F;
+}
+
+#closeButton:hover {
+    -fx-background-color: #C9302C;
+}
+
+.button:pressed {
+    -fx-background-color: #004080;
+}
+
+#closeButton:pressed {
+    -fx-background-color: #A52A2A;
+}
